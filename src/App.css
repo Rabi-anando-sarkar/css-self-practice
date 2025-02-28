@@ -319,7 +319,7 @@
     right: 25px;
 }
 
-.main-form-conatiner {
+.main-form-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,11 +334,11 @@
     -o-border-radius: 10px;
 }
 
-.main-form-conatiner h2{
+.main-form-container h2{
     color: aliceblue;
 }
 
-.text-form {
+.form {
     width: 600px;
     /* background-color: #e9e7e7; */
     padding: 20px;
@@ -356,6 +356,27 @@
 }
 
 .invInput-default {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pass-default {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pass-focus {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pass-invalid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pass-placeholder {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -386,6 +407,7 @@
     color: aliceblue;
 }
 
+
 .invInput-focus label {
     font-size: 14px;
     font-weight: 5px;
@@ -407,8 +429,47 @@
     color: aliceblue;
 }
 
+.pass-default label {
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.pass-invalid label {
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.pass-focus label {
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.pass-placeholder label {
+    font-size: 14px;
+    font-weight: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
 .defaultInput {
     background-color: #B6FFA1;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    width: 250px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.defaultPassword {
+    background-color: #d8a1ff;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -468,6 +529,11 @@
     outline: none;
 }
 
+.invInput-focus input:focus {
+    border: 3px solid #14dc43;
+    outline: none;
+}
+
 .error {
     border: 2px solid #dc1b14;
     outline: none;
@@ -476,4 +542,14 @@
 .invInput-placeholder input::placeholder {
     font-weight: 4px;
     color: #1300be
+}
+
+.pass-focus input:focus {
+    border: 3px solid #c514dc;
+    outline: none;
+}
+
+.pass-placeholder input::placeholder {
+    font-weight: 4px;
+    color: #f8ff3c
 }

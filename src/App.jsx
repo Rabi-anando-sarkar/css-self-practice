@@ -7,6 +7,7 @@ import LoadingButton from './components/buttons/LoadingButton'
 import OutlinedButton from './components/buttons/OutlinedButton'
 import PrimaryButton from './components/buttons/PrimaryButton'
 import SecondaryButton from './components/buttons/SecondaryButton'
+import PasswordInput from './components/inputFieldsAndForms/PasswordInput'
 import TextInput from './components/inputFieldsAndForms/TextInput'
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <IconButton/> */}
       {/* <LoadingButton/> */}
       {/* <FloatingActionButton/> */}
-      <TextInput/>
+      {/* <TextInput/> */}
+      {/* <PasswordInput/> */}
     </div>
   )
 }

@@ -10,11 +10,11 @@ const TextInput = () => {
     }
   return (
     <>
-        <div className='main-form-conatiner'>
+        <div className='main-form-container'>
             <div>
-                <h2>Default input Form</h2>
+                <h2>Text Input Form</h2>
             </div>
-            <form className='text-form'>
+            <form className='form'>
             <div className='invInput-default'>
                 <label htmlFor='defaultInput'>Default Text Input</label>
                 <input 
